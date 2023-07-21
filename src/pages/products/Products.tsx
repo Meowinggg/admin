@@ -9,7 +9,7 @@ const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90 },
   {
     field: "img",
-    headerName: "Image",
+    headerName: "Thumnail",
     width: 100,
     renderCell: (params) => {
       return <img src={params.row.img || "/noavatar.png"} alt="" />;
@@ -22,20 +22,20 @@ const columns: GridColDef[] = [
     width: 250,
   },
   {
-    field: "color",
+    field: "Album",
     type: "string",
-    headerName: "Color",
+    headerName: "Album",
     width: 150,
   },
   {
-    field: "price",
+    field: "Composer",
     type: "string",
-    headerName: "Price",
+    headerName: "Composer",
     width: 200,
   },
   {
-    field: "producer",
-    headerName: "Producer",
+    field: "Views",
+    headerName: "Views",
     type: "string",
     width: 200,
   },
@@ -46,8 +46,8 @@ const columns: GridColDef[] = [
     type: "string",
   },
   {
-    field: "inStock",
-    headerName: "In Stock",
+    field: "Duration",
+    headerName: "Duration",
     width: 150,
     type: "boolean",
   },
