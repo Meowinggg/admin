@@ -33,6 +33,42 @@ export const menu = [
         url: "/products",
         icon: "product.svg",
       },
+      {
+        id: 3,
+        title: "Albums",
+        url: "/products",
+        icon: "product.svg",
+      },
+      {
+        id: 4,
+        title: "Composer",
+        url: "/products",
+        icon: "product.svg",
+      },
+      {
+        id: 5,
+        title: "Favorites",
+        url: "/products",
+        icon: "product.svg",
+      },
+      {
+        id: 6,
+        title: "Genres",
+        url: "/products",
+        icon: "product.svg",
+      },
+      {
+        id: 7,
+        title: "History",
+        url: "/products",
+        icon: "product.svg",
+      },
+      {
+        id: 8,
+        title: "Thumnail",
+        url: "/products",
+        icon: "product.svg",
+      },
     ],
   },
   {
